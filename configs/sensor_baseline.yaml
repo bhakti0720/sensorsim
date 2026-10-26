@@ -1,0 +1,32 @@
+# Reference sensor: Sentinel-2 MSI, band B4 (red, 10 m).
+# Tags: [PUBLISHED] from ESA docs, [DERIVED] computed from published values, [ASSUMED] my modelling choice.
+# Sources:
+#  ESA S2 MSI Technical Guide, Mission Performance (band table: Lref, Lmax, SNR)
+#  Sentinel-2 L1C product docs (12-bit)
+#  SPIE 10563-105630I, "VNIR focal plane results from the MSI of Sentinel-2"
+
+seed: 42
+
+sensor:
+  bits: 12                    # [PUBLISHED] ESA L1C docs
+  gain_e_per_dn: 22.0         # [DERIVED] K = (SNR_ref^2 * Lmax/Lref) / 4095, B4: 142, 108, 484
+  offset_dn: 100              # [ASSUMED] black level
+  read_noise_e: 20.0          # [ASSUMED] ~200 uV rms published, no e- conversion found
+  dark_current_e_per_s: 50.0  # [ASSUMED]
+  dsnu_e_per_s: 5.0           # [ASSUMED]
+  sigma_prnu: 0.01            # [ASSUMED] 1% raw pixel gain variation
+  t_int_s: 0.0015             # [DERIVED] 10 m / ~6.7 km/s ground speed (my estimate)
+  psf_sigma_px: 0.5           # [ASSUMED]
+  l_ref: 108.0                # [PUBLISHED] ESA S2 MSI band table, B4 reference radiance
+  l_max: 484.0                # [PUBLISHED] ESA S2 MSI band table, B4 max 
+
+defects:
+  dead_rate: 0.0005           # [ASSUMED]
+  hot_rate: 0.0005            # [ASSUMED]
+  stuck_rate: 0.0002          # [ASSUMED]
+  hot_excess_e: 2000.0        # [ASSUMED] extra electrons per exposure at a hot pixel (~90 DN); dark current alone is invisible at t_int = 1.5 ms
+
+
+stripes:
+  col_gain_sigma: 0.01        # [ASSUMED]
+  col_offset_sigma_dn: 1.0    # [ASSUMED]

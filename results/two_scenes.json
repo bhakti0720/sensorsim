@@ -1,0 +1,38 @@
+{
+  "urban (NYC)": {
+    "rmse_l1_fixed": 0.49742937605542265,
+    "bias_fixed": 0.001712590102097898,
+    "mean_radiance": 37.54756047996317,
+    "k_est": 22.002997713406703,
+    "k_true": 22.0,
+    "k_err_pct": 0.013625970030469019,
+    "flat_response_rms_err": 0.00032816346379940206,
+    "det_precision": 1.0,
+    "det_recall": 1.0,
+    "det_f1": 1.0,
+    "n_true_defects": 322,
+    "n_saturated": 0,
+    "n_dark": 50,
+    "n_levels": 10,
+    "n_per_level": 30,
+    "rmse_pct_of_mean": 1.3247981218936187
+  },
+  "water (LI Sound)": {
+    "rmse_l1_fixed": 0.27728577986658226,
+    "bias_fixed": 0.0018610728219079422,
+    "mean_radiance": 11.528788965997116,
+    "k_est": 21.992440401494484,
+    "k_true": 22.0,
+    "k_err_pct": -0.03436181138870867,
+    "flat_response_rms_err": 0.0003273034513778339,
+    "det_precision": 1.0,
+    "det_recall": 1.0,
+    "det_f1": 1.0,
+    "n_true_defects": 93,
+    "n_saturated": 0,
+    "n_dark": 50,
+    "n_levels": 10,
+    "n_per_level": 30,
+    "rmse_pct_of_mean": 2.4051596458605142
+  }
+}

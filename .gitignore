@@ -1,0 +1,14 @@
+.venv/
+data/
+__pycache__/
+*.pyc
+
+build/
+*.pyd
+*.so
+
+.pytest_cache/
+*.egg-info/
+.vscode/
+results/*.npy
+results/*.npzPhysics-Based*.md

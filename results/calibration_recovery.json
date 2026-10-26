@@ -1,0 +1,14 @@
+{
+  "K_est": 22.002997713406703,
+  "K_true": 22.0,
+  "K_err_pct": 0.013625970030469019,
+  "read_noise_ptc_e": 20.126213847891467,
+  "read_noise_true_e": 20.0,
+  "dark_rms_err_dn": 0.13512938520429207,
+  "ff_rms_err": 0.00032817049886031696,
+  "nonuniformity_before": 0.014301491697938234,
+  "col_gain_rms_err": 0.00010769503207907843,
+  "n_dark": 50,
+  "n_per_level": 30,
+  "gate_pass": true
+}

@@ -1,0 +1,151 @@
+{
+  "read_noise_e": [
+    {
+      "rmse_l1_fixed": 0.2560900495511546,
+      "k_err_pct": -0.028111220461980006,
+      "flat_response_rms_err": 0.00032495368209399674,
+      "det_precision": 1.0,
+      "det_recall": 1.0,
+      "det_f1": 1.0,
+      "n_true_defects": 85.66666666666667,
+      "rmse_std": 0.0004303612869236932,
+      "value": 5
+    },
+    {
+      "rmse_l1_fixed": 0.26039439688327887,
+      "k_err_pct": -0.027600732683789413,
+      "flat_response_rms_err": 0.00032415438902174196,
+      "det_precision": 1.0,
+      "det_recall": 1.0,
+      "det_f1": 1.0,
+      "n_true_defects": 85.66666666666667,
+      "rmse_std": 0.00022746604485352376,
+      "value": 10
+    },
+    {
+      "rmse_l1_fixed": 0.2775212244899625,
+      "k_err_pct": -0.02794465147371028,
+      "flat_response_rms_err": 0.0003287658417464164,
+      "det_precision": 1.0,
+      "det_recall": 1.0,
+      "det_f1": 1.0,
+      "n_true_defects": 85.66666666666667,
+      "rmse_std": 0.00016971955041496204,
+      "value": 20
+    },
+    {
+      "rmse_l1_fixed": 0.3378158675732786,
+      "k_err_pct": -0.02645461385405883,
+      "flat_response_rms_err": 0.00034672951198794845,
+      "det_precision": 1.0,
+      "det_recall": 1.0,
+      "det_f1": 1.0,
+      "n_true_defects": 85.66666666666667,
+      "rmse_std": 0.00015199652333812224,
+      "value": 40
+    },
+    {
+      "rmse_l1_fixed": 0.5121218056153972,
+      "k_err_pct": -0.025554262169236844,
+      "flat_response_rms_err": 0.00041073564874840994,
+      "det_precision": 1.0,
+      "det_recall": 1.0,
+      "det_f1": 1.0,
+      "n_true_defects": 85.66666666666667,
+      "rmse_std": 0.0008607259861218088,
+      "value": 80
+    }
+  ],
+  "bits": [
+    {
+      "rmse_l1_fixed": 1.2860434348489336,
+      "k_err_pct": -9.799580239906051,
+      "flat_response_rms_err": 0.0027102195883843085,
+      "det_precision": 1.0,
+      "det_recall": 1.0,
+      "det_f1": 1.0,
+      "n_true_defects": 85.66666666666667,
+      "rmse_std": 0.005463158100507515,
+      "value": 8
+    },
+    {
+      "rmse_l1_fixed": 0.3290846820434683,
+      "k_err_pct": -0.010780083143350924,
+      "flat_response_rms_err": 0.0003845004414724674,
+      "det_precision": 1.0,
+      "det_recall": 1.0,
+      "det_f1": 1.0,
+      "n_true_defects": 85.66666666666667,
+      "rmse_std": 0.0003223428099160962,
+      "value": 10
+    },
+    {
+      "rmse_l1_fixed": 0.2775212244899625,
+      "k_err_pct": -0.02794465147371028,
+      "flat_response_rms_err": 0.0003287658417464164,
+      "det_precision": 1.0,
+      "det_recall": 1.0,
+      "det_f1": 1.0,
+      "n_true_defects": 85.66666666666667,
+      "rmse_std": 0.00016971955041496204,
+      "value": 12
+    },
+    {
+      "rmse_l1_fixed": 0.2730635588647137,
+      "k_err_pct": -0.029619560536881136,
+      "flat_response_rms_err": 0.0011312980162321085,
+      "det_precision": 1.0,
+      "det_recall": 1.0,
+      "det_f1": 1.0,
+      "n_true_defects": 85.66666666666667,
+      "rmse_std": 0.0004312142543654003,
+      "value": 14
+    }
+  ],
+  "defect_factor": [
+    {
+      "rmse_l1_fixed": 0.2775212244899625,
+      "k_err_pct": -0.02794465147371028,
+      "flat_response_rms_err": 0.0003287658417464164,
+      "det_precision": 1.0,
+      "det_recall": 1.0,
+      "det_f1": 1.0,
+      "n_true_defects": 85.66666666666667,
+      "rmse_std": 0.00016971955041496204,
+      "value": 1
+    },
+    {
+      "rmse_l1_fixed": 0.2775938107977986,
+      "k_err_pct": -0.03243289058768819,
+      "flat_response_rms_err": 0.00033268935381987,
+      "det_precision": 1.0,
+      "det_recall": 1.0,
+      "det_f1": 1.0,
+      "n_true_defects": 315.6666666666667,
+      "rmse_std": 8.896540073852278e-05,
+      "value": 4
+    },
+    {
+      "rmse_l1_fixed": 0.2788837060593862,
+      "k_err_pct": -0.03252306536235236,
+      "flat_response_rms_err": 0.00038800332075972455,
+      "det_precision": 1.0,
+      "det_recall": 1.0,
+      "det_f1": 1.0,
+      "n_true_defects": 1244.6666666666667,
+      "rmse_std": 0.0005073695121741294,
+      "value": 16
+    },
+    {
+      "rmse_l1_fixed": 0.28873752114948154,
+      "k_err_pct": -0.030977940769215773,
+      "flat_response_rms_err": 0.0006121174926618924,
+      "det_precision": 1.0,
+      "det_recall": 1.0,
+      "det_f1": 1.0,
+      "n_true_defects": 3118.6666666666665,
+      "rmse_std": 0.009924685490261131,
+      "value": 40
+    }
+  ]
+}

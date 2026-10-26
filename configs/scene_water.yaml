@@ -1,0 +1,19 @@
+# Scene: Sentinel-2 L1C, western Long Island Sound (open water), band B04.
+# Same product and metadata as scene_nyc.yaml; only the crop differs.
+product: S2B_MSIL1C_20260829T153809_N0512_R011_T18TWL_20260829T191906
+band_file: T18TWL_20260829T153809_B04.jp2
+granule: L1C_T18TWL_A049515_20260829T154535
+
+crop:
+  lon: -73.72         # mid-Sound, ~2 km inside the tile's east edge
+  lat: 40.90
+  size: 256
+
+reflectance:
+  quantification_value: 10000
+  add_offset: -1000
+
+radiance:
+  esun_w_m2_um: 1512.79
+  sun_zenith_deg: 35.100702197258
+  u_factor: 0.979200704476876

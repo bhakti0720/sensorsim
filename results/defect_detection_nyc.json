@@ -1,0 +1,31 @@
+{
+  "n_pixels": 262144,
+  "n_true_defects": 322,
+  "response_outlier_extra": 0,
+  "scores": {
+    "dead+stuck (constant rule)": {
+      "tp": 164,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "hot (dark-level rule)": {
+      "tp": 158,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "all defects (combined)": {
+      "tp": 322,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  }
+}
