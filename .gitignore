@@ -1,14 +1,23 @@
-.venv/
+# data and outputs
 data/
+*.tif
+*.jp2
+*.npy
+*.npz
+
+# Python
 __pycache__/
 *.pyc
-
-build/
-*.pyd
-*.so
-
-.pytest_cache/
+.venv/
 *.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# C++ build
+build/
+*.so
+*.o
+
+# OS/editor
+.DS_Store
 .vscode/
-results/*.npy
-results/*.npzPhysics-Based*.md
